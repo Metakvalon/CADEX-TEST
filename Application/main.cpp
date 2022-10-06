@@ -2,7 +2,7 @@
 #include <vector>
 #include <random>
 
-#include "CurvesLib.h"
+#include "Curves.h"
 #include "Circle.h"
 #include "Ellipse.h"
 #include "Helix.h"

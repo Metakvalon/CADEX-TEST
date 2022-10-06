@@ -1,5 +1,5 @@
 #pragma once
-#include "CurvesLib.h"
+#include "Curves.h"
 
 class CURVES_API Circle : public Curve
 {
