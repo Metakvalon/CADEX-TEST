@@ -1,7 +1,7 @@
 #pragma once
-#include "Curves.h"
+#include "Curve.h"
 
-class CURVES_API Helix : public Curve
+class CURVESLIB_API Helix : public Curve
 {
 public:
     Helix(double r, double s);

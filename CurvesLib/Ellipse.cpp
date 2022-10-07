@@ -1,3 +1,4 @@
+#include <cmath>
 #include <utility>
 #include <limits.h>
 #include "Ellipse.h"

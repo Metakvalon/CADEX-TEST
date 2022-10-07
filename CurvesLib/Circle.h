@@ -1,7 +1,7 @@
 #pragma once
-#include "Curves.h"
+#include "Curve.h"
 
-class CURVES_API Circle : public Curve
+class CURVESLIB_API Circle : public Curve
 {
 public:
     Circle(double r);

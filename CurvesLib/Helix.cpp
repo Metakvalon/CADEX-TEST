@@ -1,3 +1,5 @@
+#define _USE_MATH_DEFINES
+#include <cmath>
 #include <utility>
 #include <limits.h>
 #include "Helix.h"
