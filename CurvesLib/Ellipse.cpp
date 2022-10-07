@@ -3,10 +3,10 @@
 #include <limits.h>
 #include "Ellipse.h"
 
-Ellipse::Ellipse(double c, double d)
+Ellipse::Ellipse(double a, double b)
 {
-    rad_a = c;
-    rad_b = d;
+    rad_a = a;
+    rad_b = b;
 }
 
 XYZ Ellipse::curve_pnt(double t)

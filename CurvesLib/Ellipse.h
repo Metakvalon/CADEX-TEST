@@ -4,7 +4,7 @@
 class CURVESLIB_API Ellipse : public Curve
 {
 public:
-    Ellipse(double c, double d);
+    Ellipse(double a, double b);
     XYZ curve_pnt(double t) override;
     Vector curve_deriv(double t) override;
 private:
