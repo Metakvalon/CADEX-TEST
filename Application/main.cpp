@@ -49,10 +49,8 @@ int main()
     for (std::shared_ptr<Curve> obj : v1)
     {
         XYZ point = obj->curve_pnt(M_PI_4);
-        obj->curve_pnt(M_PI_4);
         std::cout << point.x << " " << point.y << " " << point.z << std::endl;
         Vector deriv = obj->curve_deriv(M_PI_4);
-        obj->curve_deriv(M_PI_4);
         std::cout << deriv.x << " " << deriv.y << " " << deriv.z << std::endl;
         std::cout << "\n" << std::endl;
     }

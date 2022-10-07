@@ -24,5 +24,6 @@ Vector Circle::curve_deriv(double t)
     Vector deriv;
     deriv.x = rad * (-std::sin(t));
     deriv.y = rad * std::cos(t);
+    deriv.z = 0;
     return deriv;
 }

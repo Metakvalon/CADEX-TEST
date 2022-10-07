@@ -1,5 +1,4 @@
 #pragma once
-#include <iostream>
 #ifdef CURVESLIB_EXPORTS
 #define CURVESLIB_API __declspec(dllexport)
 #else
@@ -19,10 +18,7 @@ class Curve
 public:
     virtual XYZ curve_pnt(double t) = 0;
     virtual Vector curve_deriv(double t) = 0;
+    virtual ~Curve() = default;
 };
-
-
-
-
 
 

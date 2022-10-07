@@ -23,5 +23,6 @@ Vector Ellipse::curve_deriv(double t)
     Vector deriv;
     deriv.x = rad_a * (-std::sin(t));
     deriv.y = rad_b * std::cos(t);
+    deriv.z = 0;
     return deriv;
 }
